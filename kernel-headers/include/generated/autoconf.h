@@ -1,6 +1,6 @@
 /*
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 6.1.131 Kernel Configuration
+ * Linux/arm64 6.1.134 Kernel Configuration
  */
 #define CONFIG_NLS_CODEPAGE_861 1
 #define CONFIG_RING_BUFFER 1
