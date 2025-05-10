@@ -162,13 +162,6 @@ jobs:
                 sed -i "/stable_scmversion_cmd/s/-maybe-dirty//g" ./build/kernel/kleaf/impl/stamp.bzl
                 sed -E -i '/^CONFIG_LOCALVERSION=/ s/(.*)"$/\1-tvyiutnhisokewt"/' ./aosp/arch/arm64/configs/gki_defconfig
 
-            - name: bluejay 90hz patch
-              run: |
-                cd ~
-                rm -rf kernel/private/devices/google/bluejay/*
-                git clone https://github.com/tvyiutnhisokewt/private_devices_google_bluejay
-                cp -r private_devices_google_bluejay/* kernel/private/devices/google/bluejay/
-
             - name: build gki with kernelsu-next
               run: |
                 cd ~
