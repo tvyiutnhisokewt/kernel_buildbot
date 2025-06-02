@@ -192,6 +192,7 @@
 #define __KSYM___hw_addr_sync_dev 1
 #define __KSYM___hw_addr_unsync 1
 #define __KSYM___hwspin_lock_timeout 1
+#define __KSYM___hwspin_trylock 1
 #define __KSYM___hwspin_unlock 1
 #define __KSYM___i2c_smbus_xfer 1
 #define __KSYM___i2c_transfer 1
@@ -515,6 +516,7 @@
 #define __KSYM___traceiter_android_rvh_set_user_nice 1
 #define __KSYM___traceiter_android_rvh_set_user_nice_locked 1
 #define __KSYM___traceiter_android_rvh_setscheduler 1
+#define __KSYM___traceiter_android_rvh_setscheduler_prio 1
 #define __KSYM___traceiter_android_rvh_shmem_get_folio 1
 #define __KSYM___traceiter_android_rvh_show_max_freq 1
 #define __KSYM___traceiter_android_rvh_sk_alloc 1
@@ -647,6 +649,7 @@
 #define __KSYM___traceiter_android_vh_do_swap_page 1
 #define __KSYM___traceiter_android_vh_do_wake_up_sync 1
 #define __KSYM___traceiter_android_vh_do_wp_page 1
+#define __KSYM___traceiter_android_vh_drain_all_pages_bypass 1
 #define __KSYM___traceiter_android_vh_dump_throttled_rt_tasks 1
 #define __KSYM___traceiter_android_vh_dup_task_struct 1
 #define __KSYM___traceiter_android_vh_early_resume_begin 1
@@ -754,6 +757,7 @@
 #define __KSYM___traceiter_android_vh_page_add_new_anon_rmap 1
 #define __KSYM___traceiter_android_vh_page_referenced_check_bypass 1
 #define __KSYM___traceiter_android_vh_page_should_be_protected 1
+#define __KSYM___traceiter_android_vh_pageset_update 1
 #define __KSYM___traceiter_android_vh_percpu_rwsem_down_read 1
 #define __KSYM___traceiter_android_vh_percpu_rwsem_up_write 1
 #define __KSYM___traceiter_android_vh_percpu_rwsem_wq_add 1
@@ -1082,6 +1086,7 @@
 #define __KSYM___tracepoint_android_rvh_set_user_nice 1
 #define __KSYM___tracepoint_android_rvh_set_user_nice_locked 1
 #define __KSYM___tracepoint_android_rvh_setscheduler 1
+#define __KSYM___tracepoint_android_rvh_setscheduler_prio 1
 #define __KSYM___tracepoint_android_rvh_shmem_get_folio 1
 #define __KSYM___tracepoint_android_rvh_show_max_freq 1
 #define __KSYM___tracepoint_android_rvh_sk_alloc 1
@@ -1214,6 +1219,7 @@
 #define __KSYM___tracepoint_android_vh_do_swap_page 1
 #define __KSYM___tracepoint_android_vh_do_wake_up_sync 1
 #define __KSYM___tracepoint_android_vh_do_wp_page 1
+#define __KSYM___tracepoint_android_vh_drain_all_pages_bypass 1
 #define __KSYM___tracepoint_android_vh_dump_throttled_rt_tasks 1
 #define __KSYM___tracepoint_android_vh_dup_task_struct 1
 #define __KSYM___tracepoint_android_vh_early_resume_begin 1
@@ -1321,6 +1327,7 @@
 #define __KSYM___tracepoint_android_vh_page_add_new_anon_rmap 1
 #define __KSYM___tracepoint_android_vh_page_referenced_check_bypass 1
 #define __KSYM___tracepoint_android_vh_page_should_be_protected 1
+#define __KSYM___tracepoint_android_vh_pageset_update 1
 #define __KSYM___tracepoint_android_vh_percpu_rwsem_down_read 1
 #define __KSYM___tracepoint_android_vh_percpu_rwsem_up_write 1
 #define __KSYM___tracepoint_android_vh_percpu_rwsem_wq_add 1
@@ -4032,6 +4039,7 @@
 #define __KSYM_hci_unregister_dev 1
 #define __KSYM_hdmi_audio_infoframe_init 1
 #define __KSYM_hdmi_audio_infoframe_pack 1
+#define __KSYM_hdmi_audio_infoframe_pack_for_dp 1
 #define __KSYM_hdmi_avi_infoframe_check 1
 #define __KSYM_hdmi_avi_infoframe_init 1
 #define __KSYM_hdmi_avi_infoframe_pack 1
@@ -4501,6 +4509,7 @@
 #define __KSYM_irq_get_domain_generic_chip 1
 #define __KSYM_irq_get_irq_data 1
 #define __KSYM_irq_get_irqchip_state 1
+#define __KSYM_irq_get_percpu_devid_partition 1
 #define __KSYM_irq_modify_status 1
 #define __KSYM_irq_of_parse_and_map 1
 #define __KSYM_irq_set_affinity 1
@@ -5613,6 +5622,7 @@
 #define __KSYM_perf_aux_output_begin 1
 #define __KSYM_perf_aux_output_end 1
 #define __KSYM_perf_aux_output_flag 1
+#define __KSYM_perf_aux_output_skip 1
 #define __KSYM_perf_event_addr_filters_sync 1
 #define __KSYM_perf_event_create_kernel_counter 1
 #define __KSYM_perf_event_disable 1
@@ -7319,6 +7329,7 @@
 #define __KSYM_thermal_zone_get_temp 1
 #define __KSYM_thermal_zone_get_zone_by_name 1
 #define __KSYM_thermal_zone_unbind_cooling_device 1
+#define __KSYM_this_cpu_has_cap 1
 #define __KSYM_thread_group_cputime_adjusted 1
 #define __KSYM_tick_nohz_get_idle_calls_cpu 1
 #define __KSYM_tick_nohz_get_sleep_length 1
