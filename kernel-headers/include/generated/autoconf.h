@@ -1,6 +1,6 @@
 /*
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 6.1.140 Kernel Configuration
+ * Linux/arm64 6.1.141 Kernel Configuration
  */
 #define CONFIG_NLS_CODEPAGE_861 1
 #define CONFIG_RING_BUFFER 1
@@ -784,7 +784,6 @@
 #define CONFIG_GKI_HIDDEN_SND_CONFIGS 1
 #define CONFIG_FUTEX 1
 #define CONFIG_GENERIC_PHY_MIPI_DPHY 1
-#define CONFIG_UNIX_SCM 1
 #define CONFIG_CONSOLE_LOGLEVEL_DEFAULT 7
 #define CONFIG_REGMAP_I2C 1
 #define CONFIG_GENERIC_SCHED_CLOCK 1
