@@ -35,7 +35,7 @@ jobs:
             - name: hax because google gay
               run: |
                 cd ~/kernel
-                sed -i 's/android-gs-bluejay-6.1-android16/android-16.0.0_r0.10/g' .repo/manifests/default.xml
+                sed -i 's/android-gs-bluejay-6.1-android16/android-16.0.0_r0.0/g' .repo/manifests/default.xml
                 repo sync -c -j$(nproc --all) --no-tags --no-clone-bundle --force-sync
             
             - name: checkout android14-6.1-lts
@@ -95,7 +95,7 @@ jobs:
             - name: hax because google gay
               run: |
                 cd ~/kernel
-                sed -i 's/android-gs-pantah-6.1-android16/android-16.0.0_r0.10/g' .repo/manifests/default.xml
+                sed -i 's/android-gs-pantah-6.1-android16/android-16.0.0_r0.0/g' .repo/manifests/default.xml
                 repo sync -c -j$(nproc --all) --no-tags --no-clone-bundle --force-sync
 
             - name: checkout android14-6.1-lts
