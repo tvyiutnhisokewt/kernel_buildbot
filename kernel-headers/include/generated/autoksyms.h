@@ -192,11 +192,9 @@
 #define __KSYM___hw_addr_sync_dev 1
 #define __KSYM___hw_addr_unsync 1
 #define __KSYM___hwspin_lock_timeout 1
-#define __KSYM___hwspin_trylock 1
 #define __KSYM___hwspin_unlock 1
 #define __KSYM___i2c_smbus_xfer 1
 #define __KSYM___i2c_transfer 1
-#define __KSYM___icmp_send 1
 #define __KSYM___iio_device_register 1
 #define __KSYM___iio_trigger_alloc 1
 #define __KSYM___inet6_lookup_established 1
@@ -516,7 +514,6 @@
 #define __KSYM___traceiter_android_rvh_set_user_nice 1
 #define __KSYM___traceiter_android_rvh_set_user_nice_locked 1
 #define __KSYM___traceiter_android_rvh_setscheduler 1
-#define __KSYM___traceiter_android_rvh_setscheduler_prio 1
 #define __KSYM___traceiter_android_rvh_shmem_get_folio 1
 #define __KSYM___traceiter_android_rvh_show_max_freq 1
 #define __KSYM___traceiter_android_rvh_sk_alloc 1
@@ -543,7 +540,6 @@
 #define __KSYM___traceiter_android_rvh_vmscan_kswapd_done 1
 #define __KSYM___traceiter_android_rvh_vmscan_kswapd_wake 1
 #define __KSYM___traceiter_android_rvh_wake_up_new_task 1
-#define __KSYM___traceiter_android_trigger_vendor_lmk_kill 1
 #define __KSYM___traceiter_android_vh_account_process_tick_gran 1
 #define __KSYM___traceiter_android_vh_account_task_time 1
 #define __KSYM___traceiter_android_vh_adjust_alloc_flags 1
@@ -596,7 +592,6 @@
 #define __KSYM___traceiter_android_vh_binder_wakeup_ilocked 1
 #define __KSYM___traceiter_android_vh_build_sched_domains 1
 #define __KSYM___traceiter_android_vh_bus_iommu_probe 1
-#define __KSYM___traceiter_android_vh_calculate_totalreserve_pages 1
 #define __KSYM___traceiter_android_vh_cgroup_attach 1
 #define __KSYM___traceiter_android_vh_cgroup_set_task 1
 #define __KSYM___traceiter_android_vh_check_bpf_syscall 1
@@ -612,7 +607,6 @@
 #define __KSYM___traceiter_android_vh_compaction_exit 1
 #define __KSYM___traceiter_android_vh_compaction_try_to_compact_pages_exit 1
 #define __KSYM___traceiter_android_vh_copy_process 1
-#define __KSYM___traceiter_android_vh_count_workingset_refault 1
 #define __KSYM___traceiter_android_vh_cpu_idle_enter 1
 #define __KSYM___traceiter_android_vh_cpu_idle_exit 1
 #define __KSYM___traceiter_android_vh_cpufreq_acct_update_power 1
@@ -645,11 +639,9 @@
 #define __KSYM___traceiter_android_vh_do_read_fault 1
 #define __KSYM___traceiter_android_vh_do_send_sig_info 1
 #define __KSYM___traceiter_android_vh_do_shrink_slab 1
-#define __KSYM___traceiter_android_vh_do_shrink_slab_ex 1
 #define __KSYM___traceiter_android_vh_do_swap_page 1
 #define __KSYM___traceiter_android_vh_do_wake_up_sync 1
 #define __KSYM___traceiter_android_vh_do_wp_page 1
-#define __KSYM___traceiter_android_vh_drain_all_pages_bypass 1
 #define __KSYM___traceiter_android_vh_dump_throttled_rt_tasks 1
 #define __KSYM___traceiter_android_vh_dup_task_struct 1
 #define __KSYM___traceiter_android_vh_early_resume_begin 1
@@ -662,12 +654,10 @@
 #define __KSYM___traceiter_android_vh_exit_signal 1
 #define __KSYM___traceiter_android_vh_exit_signal_whether_wake 1
 #define __KSYM___traceiter_android_vh_file_is_tiny_bypass 1
-#define __KSYM___traceiter_android_vh_filemap_add_folio 1
 #define __KSYM___traceiter_android_vh_filemap_get_folio 1
 #define __KSYM___traceiter_android_vh_filemap_map_pages 1
 #define __KSYM___traceiter_android_vh_filemap_map_pages_range 1
 #define __KSYM___traceiter_android_vh_filemap_read 1
-#define __KSYM___traceiter_android_vh_folio_referenced_check_bypass 1
 #define __KSYM___traceiter_android_vh_folio_trylock_clear 1
 #define __KSYM___traceiter_android_vh_folio_trylock_set 1
 #define __KSYM___traceiter_android_vh_free_oem_binder_struct 1
@@ -721,7 +711,6 @@
 #define __KSYM___traceiter_android_vh_madvise_swapin_walk_pmd_entry 1
 #define __KSYM___traceiter_android_vh_map_util_freq 1
 #define __KSYM___traceiter_android_vh_mem_cgroup_alloc 1
-#define __KSYM___traceiter_android_vh_mem_cgroup_charge 1
 #define __KSYM___traceiter_android_vh_mem_cgroup_css_offline 1
 #define __KSYM___traceiter_android_vh_mem_cgroup_css_online 1
 #define __KSYM___traceiter_android_vh_mem_cgroup_free 1
@@ -757,7 +746,6 @@
 #define __KSYM___traceiter_android_vh_page_add_new_anon_rmap 1
 #define __KSYM___traceiter_android_vh_page_referenced_check_bypass 1
 #define __KSYM___traceiter_android_vh_page_should_be_protected 1
-#define __KSYM___traceiter_android_vh_pageset_update 1
 #define __KSYM___traceiter_android_vh_percpu_rwsem_down_read 1
 #define __KSYM___traceiter_android_vh_percpu_rwsem_up_write 1
 #define __KSYM___traceiter_android_vh_percpu_rwsem_wq_add 1
@@ -830,7 +818,6 @@
 #define __KSYM___traceiter_android_vh_show_resume_epoch_val 1
 #define __KSYM___traceiter_android_vh_show_smap 1
 #define __KSYM___traceiter_android_vh_show_suspend_epoch_val 1
-#define __KSYM___traceiter_android_vh_shrink_node 1
 #define __KSYM___traceiter_android_vh_shrink_node_memcgs 1
 #define __KSYM___traceiter_android_vh_shrink_slab_bypass 1
 #define __KSYM___traceiter_android_vh_si_mem_available_adjust 1
@@ -887,7 +874,6 @@
 #define __KSYM___traceiter_android_vh_usb_dev_resume 1
 #define __KSYM___traceiter_android_vh_use_amu_fie 1
 #define __KSYM___traceiter_android_vh_vmscan_kswapd_done 1
-#define __KSYM___traceiter_android_vh_vprintk_store 1
 #define __KSYM___traceiter_android_vh_watchdog_timer_softlockup 1
 #define __KSYM___traceiter_android_vh_wq_lockup_pool 1
 #define __KSYM___traceiter_binder_transaction_received 1
@@ -1086,7 +1072,6 @@
 #define __KSYM___tracepoint_android_rvh_set_user_nice 1
 #define __KSYM___tracepoint_android_rvh_set_user_nice_locked 1
 #define __KSYM___tracepoint_android_rvh_setscheduler 1
-#define __KSYM___tracepoint_android_rvh_setscheduler_prio 1
 #define __KSYM___tracepoint_android_rvh_shmem_get_folio 1
 #define __KSYM___tracepoint_android_rvh_show_max_freq 1
 #define __KSYM___tracepoint_android_rvh_sk_alloc 1
@@ -1113,7 +1098,6 @@
 #define __KSYM___tracepoint_android_rvh_vmscan_kswapd_done 1
 #define __KSYM___tracepoint_android_rvh_vmscan_kswapd_wake 1
 #define __KSYM___tracepoint_android_rvh_wake_up_new_task 1
-#define __KSYM___tracepoint_android_trigger_vendor_lmk_kill 1
 #define __KSYM___tracepoint_android_vh_account_process_tick_gran 1
 #define __KSYM___tracepoint_android_vh_account_task_time 1
 #define __KSYM___tracepoint_android_vh_adjust_alloc_flags 1
@@ -1166,7 +1150,6 @@
 #define __KSYM___tracepoint_android_vh_binder_wakeup_ilocked 1
 #define __KSYM___tracepoint_android_vh_build_sched_domains 1
 #define __KSYM___tracepoint_android_vh_bus_iommu_probe 1
-#define __KSYM___tracepoint_android_vh_calculate_totalreserve_pages 1
 #define __KSYM___tracepoint_android_vh_cgroup_attach 1
 #define __KSYM___tracepoint_android_vh_cgroup_set_task 1
 #define __KSYM___tracepoint_android_vh_check_bpf_syscall 1
@@ -1182,7 +1165,6 @@
 #define __KSYM___tracepoint_android_vh_compaction_exit 1
 #define __KSYM___tracepoint_android_vh_compaction_try_to_compact_pages_exit 1
 #define __KSYM___tracepoint_android_vh_copy_process 1
-#define __KSYM___tracepoint_android_vh_count_workingset_refault 1
 #define __KSYM___tracepoint_android_vh_cpu_idle_enter 1
 #define __KSYM___tracepoint_android_vh_cpu_idle_exit 1
 #define __KSYM___tracepoint_android_vh_cpufreq_acct_update_power 1
@@ -1215,11 +1197,9 @@
 #define __KSYM___tracepoint_android_vh_do_read_fault 1
 #define __KSYM___tracepoint_android_vh_do_send_sig_info 1
 #define __KSYM___tracepoint_android_vh_do_shrink_slab 1
-#define __KSYM___tracepoint_android_vh_do_shrink_slab_ex 1
 #define __KSYM___tracepoint_android_vh_do_swap_page 1
 #define __KSYM___tracepoint_android_vh_do_wake_up_sync 1
 #define __KSYM___tracepoint_android_vh_do_wp_page 1
-#define __KSYM___tracepoint_android_vh_drain_all_pages_bypass 1
 #define __KSYM___tracepoint_android_vh_dump_throttled_rt_tasks 1
 #define __KSYM___tracepoint_android_vh_dup_task_struct 1
 #define __KSYM___tracepoint_android_vh_early_resume_begin 1
@@ -1232,12 +1212,10 @@
 #define __KSYM___tracepoint_android_vh_exit_signal 1
 #define __KSYM___tracepoint_android_vh_exit_signal_whether_wake 1
 #define __KSYM___tracepoint_android_vh_file_is_tiny_bypass 1
-#define __KSYM___tracepoint_android_vh_filemap_add_folio 1
 #define __KSYM___tracepoint_android_vh_filemap_get_folio 1
 #define __KSYM___tracepoint_android_vh_filemap_map_pages 1
 #define __KSYM___tracepoint_android_vh_filemap_map_pages_range 1
 #define __KSYM___tracepoint_android_vh_filemap_read 1
-#define __KSYM___tracepoint_android_vh_folio_referenced_check_bypass 1
 #define __KSYM___tracepoint_android_vh_folio_trylock_clear 1
 #define __KSYM___tracepoint_android_vh_folio_trylock_set 1
 #define __KSYM___tracepoint_android_vh_free_oem_binder_struct 1
@@ -1291,7 +1269,6 @@
 #define __KSYM___tracepoint_android_vh_madvise_swapin_walk_pmd_entry 1
 #define __KSYM___tracepoint_android_vh_map_util_freq 1
 #define __KSYM___tracepoint_android_vh_mem_cgroup_alloc 1
-#define __KSYM___tracepoint_android_vh_mem_cgroup_charge 1
 #define __KSYM___tracepoint_android_vh_mem_cgroup_css_offline 1
 #define __KSYM___tracepoint_android_vh_mem_cgroup_css_online 1
 #define __KSYM___tracepoint_android_vh_mem_cgroup_free 1
@@ -1327,7 +1304,6 @@
 #define __KSYM___tracepoint_android_vh_page_add_new_anon_rmap 1
 #define __KSYM___tracepoint_android_vh_page_referenced_check_bypass 1
 #define __KSYM___tracepoint_android_vh_page_should_be_protected 1
-#define __KSYM___tracepoint_android_vh_pageset_update 1
 #define __KSYM___tracepoint_android_vh_percpu_rwsem_down_read 1
 #define __KSYM___tracepoint_android_vh_percpu_rwsem_up_write 1
 #define __KSYM___tracepoint_android_vh_percpu_rwsem_wq_add 1
@@ -1400,7 +1376,6 @@
 #define __KSYM___tracepoint_android_vh_show_resume_epoch_val 1
 #define __KSYM___tracepoint_android_vh_show_smap 1
 #define __KSYM___tracepoint_android_vh_show_suspend_epoch_val 1
-#define __KSYM___tracepoint_android_vh_shrink_node 1
 #define __KSYM___tracepoint_android_vh_shrink_node_memcgs 1
 #define __KSYM___tracepoint_android_vh_shrink_slab_bypass 1
 #define __KSYM___tracepoint_android_vh_si_mem_available_adjust 1
@@ -1457,7 +1432,6 @@
 #define __KSYM___tracepoint_android_vh_usb_dev_resume 1
 #define __KSYM___tracepoint_android_vh_use_amu_fie 1
 #define __KSYM___tracepoint_android_vh_vmscan_kswapd_done 1
-#define __KSYM___tracepoint_android_vh_vprintk_store 1
 #define __KSYM___tracepoint_android_vh_watchdog_timer_softlockup 1
 #define __KSYM___tracepoint_android_vh_wq_lockup_pool 1
 #define __KSYM___tracepoint_binder_transaction_received 1
@@ -1567,7 +1541,6 @@
 #define __KSYM___write_overflow_field 1
 #define __KSYM___xa_alloc 1
 #define __KSYM___xa_alloc_cyclic 1
-#define __KSYM___xa_cmpxchg 1
 #define __KSYM___xa_erase 1
 #define __KSYM___xa_insert 1
 #define __KSYM___xa_store 1
@@ -1761,7 +1734,6 @@
 #define __KSYM_bio_associate_blkg_from_css 1
 #define __KSYM_bio_chain 1
 #define __KSYM_bio_clone_blkg_association 1
-#define __KSYM_bio_crypt_set_ctx 1
 #define __KSYM_bio_end_io_acct_remapped 1
 #define __KSYM_bio_endio 1
 #define __KSYM_bio_init 1
@@ -1790,12 +1762,9 @@
 #define __KSYM_blk_abort_request 1
 #define __KSYM_blk_bio_list_merge 1
 #define __KSYM_blk_check_plugged 1
-#define __KSYM_blk_crypto_evict_key 1
-#define __KSYM_blk_crypto_init_key 1
 #define __KSYM_blk_crypto_keyslot_index 1
 #define __KSYM_blk_crypto_register 1
 #define __KSYM_blk_crypto_reprogram_all_keys 1
-#define __KSYM_blk_crypto_start_using_key 1
 #define __KSYM_blk_execute_rq 1
 #define __KSYM_blk_execute_rq_nowait 1
 #define __KSYM_blk_fill_rwbs 1
@@ -2056,7 +2025,6 @@
 #define __KSYM_cgroup_add_dfl_cftypes 1
 #define __KSYM_cgroup_add_legacy_cftypes 1
 #define __KSYM_cgroup_path_ns 1
-#define __KSYM_cgroup_rm_cftypes 1
 #define __KSYM_cgroup_taskset_first 1
 #define __KSYM_cgroup_taskset_next 1
 #define __KSYM_cgroup_threadgroup_rwsem 1
@@ -2451,7 +2419,6 @@
 #define __KSYM_debugfs_create_x8 1
 #define __KSYM_debugfs_file_get 1
 #define __KSYM_debugfs_file_put 1
-#define __KSYM_debugfs_initialized 1
 #define __KSYM_debugfs_lookup 1
 #define __KSYM_debugfs_lookup_and_remove 1
 #define __KSYM_debugfs_remove 1
@@ -2771,7 +2738,6 @@
 #define __KSYM_devm_mipi_dsi_attach 1
 #define __KSYM_devm_mipi_dsi_device_register_full 1
 #define __KSYM_devm_nvmem_cell_get 1
-#define __KSYM_devm_nvmem_cell_put 1
 #define __KSYM_devm_nvmem_device_get 1
 #define __KSYM_devm_nvmem_register 1
 #define __KSYM_devm_of_clk_add_hw_provider 1
@@ -3137,7 +3103,6 @@
 #define __KSYM_drm_bridge_get_edid 1
 #define __KSYM_drm_bridge_get_modes 1
 #define __KSYM_drm_bridge_hpd_notify 1
-#define __KSYM_drm_bridge_is_panel 1
 #define __KSYM_drm_bridge_remove 1
 #define __KSYM_drm_bus_flags_from_videomode 1
 #define __KSYM_drm_calc_timestamping_constants 1
@@ -3234,7 +3199,6 @@
 #define __KSYM_drm_format_info 1
 #define __KSYM_drm_format_info_block_height 1
 #define __KSYM_drm_format_info_block_width 1
-#define __KSYM_drm_format_info_bpp 1
 #define __KSYM_drm_format_info_min_pitch 1
 #define __KSYM_drm_framebuffer_cleanup 1
 #define __KSYM_drm_framebuffer_init 1
@@ -3401,7 +3365,6 @@
 #define __KSYM_drm_panel_bridge_add_typed 1
 #define __KSYM_drm_panel_bridge_connector 1
 #define __KSYM_drm_panel_bridge_remove 1
-#define __KSYM_drm_panel_bridge_set_orientation 1
 #define __KSYM_drm_panel_disable 1
 #define __KSYM_drm_panel_enable 1
 #define __KSYM_drm_panel_get_modes 1
@@ -3488,8 +3451,6 @@
 #define __KSYM_drmm_kfree 1
 #define __KSYM_drmm_kmalloc 1
 #define __KSYM_drmm_mode_config_init 1
-#define __KSYM_drmm_of_get_bridge 1
-#define __KSYM_drmm_panel_bridge_add 1
 #define __KSYM_drop_nlink 1
 #define __KSYM_drop_super 1
 #define __KSYM_dst_cache_destroy 1
@@ -3664,7 +3625,6 @@
 #define __KSYM_flush_work 1
 #define __KSYM_folio_add_lru 1
 #define __KSYM_folio_clear_dirty_for_io 1
-#define __KSYM_folio_mapcount 1
 #define __KSYM_folio_mapping 1
 #define __KSYM_folio_mark_dirty 1
 #define __KSYM_folio_referenced 1
@@ -3721,7 +3681,6 @@
 #define __KSYM_fsync_bdev 1
 #define __KSYM_ftrace_dump 1
 #define __KSYM_full_name_hash 1
-#define __KSYM_fw_devlink_purge_absent_suppliers 1
 #define __KSYM_fwnode_create_software_node 1
 #define __KSYM_fwnode_device_is_available 1
 #define __KSYM_fwnode_find_reference 1
@@ -4039,7 +3998,6 @@
 #define __KSYM_hci_unregister_dev 1
 #define __KSYM_hdmi_audio_infoframe_init 1
 #define __KSYM_hdmi_audio_infoframe_pack 1
-#define __KSYM_hdmi_audio_infoframe_pack_for_dp 1
 #define __KSYM_hdmi_avi_infoframe_check 1
 #define __KSYM_hdmi_avi_infoframe_init 1
 #define __KSYM_hdmi_avi_infoframe_pack 1
@@ -4509,7 +4467,6 @@
 #define __KSYM_irq_get_domain_generic_chip 1
 #define __KSYM_irq_get_irq_data 1
 #define __KSYM_irq_get_irqchip_state 1
-#define __KSYM_irq_get_percpu_devid_partition 1
 #define __KSYM_irq_modify_status 1
 #define __KSYM_irq_of_parse_and_map 1
 #define __KSYM_irq_set_affinity 1
@@ -4813,7 +4770,6 @@
 #define __KSYM_look_up_OID 1
 #define __KSYM_lookup_bdev 1
 #define __KSYM_lookup_positive_unlocked 1
-#define __KSYM_lookup_user_key 1
 #define __KSYM_loops_per_jiffy 1
 #define __KSYM_lowpan_header_compress 1
 #define __KSYM_lowpan_header_decompress 1
@@ -4823,8 +4779,6 @@
 #define __KSYM_lowpan_register_netdevice 1
 #define __KSYM_lowpan_unregister_netdev 1
 #define __KSYM_lowpan_unregister_netdevice 1
-#define __KSYM_lru_cache_disable 1
-#define __KSYM_lru_disable_count 1
 #define __KSYM_lru_gen_caps 1
 #define __KSYM_mac_pton 1
 #define __KSYM_make_bad_inode 1
@@ -4893,7 +4847,6 @@
 #define __KSYM_media_request_object_complete 1
 #define __KSYM_media_request_put 1
 #define __KSYM_mem_cgroup_from_id 1
-#define __KSYM_mem_cgroup_move_account 1
 #define __KSYM_mem_cgroup_update_lru_size 1
 #define __KSYM_mem_dump_obj 1
 #define __KSYM_mem_section 1
@@ -5109,7 +5062,6 @@
 #define __KSYM_netdev_set_num_tc 1
 #define __KSYM_netdev_set_tc_queue 1
 #define __KSYM_netdev_state_change 1
-#define __KSYM_netdev_stats_to_stats64 1
 #define __KSYM_netdev_txq_to_tc 1
 #define __KSYM_netdev_update_features 1
 #define __KSYM_netdev_upper_dev_link 1
@@ -5165,8 +5117,6 @@
 #define __KSYM_nf_register_net_hook 1
 #define __KSYM_nf_register_net_hooks 1
 #define __KSYM_nf_register_sockopt 1
-#define __KSYM_nf_sk_lookup_slow_v4 1
-#define __KSYM_nf_sk_lookup_slow_v6 1
 #define __KSYM_nf_unregister_net_hook 1
 #define __KSYM_nf_unregister_net_hooks 1
 #define __KSYM_nf_unregister_sockopt 1
@@ -5194,11 +5144,6 @@
 #define __KSYM_nfc_tm_deactivated 1
 #define __KSYM_nfc_unregister_device 1
 #define __KSYM_nfc_vendor_cmd_reply 1
-#define __KSYM_nfnetlink_subsys_register 1
-#define __KSYM_nfnetlink_subsys_unregister 1
-#define __KSYM_nfnetlink_unicast 1
-#define __KSYM_nfnl_lock 1
-#define __KSYM_nfnl_unlock 1
 #define __KSYM_nla_append 1
 #define __KSYM_nla_find 1
 #define __KSYM_nla_memcpy 1
@@ -5622,7 +5567,6 @@
 #define __KSYM_perf_aux_output_begin 1
 #define __KSYM_perf_aux_output_end 1
 #define __KSYM_perf_aux_output_flag 1
-#define __KSYM_perf_aux_output_skip 1
 #define __KSYM_perf_event_addr_filters_sync 1
 #define __KSYM_perf_event_create_kernel_counter 1
 #define __KSYM_perf_event_disable 1
@@ -6368,7 +6312,6 @@
 #define __KSYM_rsa_parse_pub_key 1
 #define __KSYM_rt6_lookup 1
 #define __KSYM_rt_mutex_lock 1
-#define __KSYM_rt_mutex_lock_interruptible 1
 #define __KSYM_rt_mutex_trylock 1
 #define __KSYM_rt_mutex_unlock 1
 #define __KSYM_rtc_class_close 1
@@ -6796,7 +6739,6 @@
 #define __KSYM_snd_ctl_notify 1
 #define __KSYM_snd_ctl_notify_one 1
 #define __KSYM_snd_ctl_remove 1
-#define __KSYM_snd_ctl_remove_id 1
 #define __KSYM_snd_device_free 1
 #define __KSYM_snd_device_new 1
 #define __KSYM_snd_dma_alloc_dir_pages 1
@@ -7329,7 +7271,6 @@
 #define __KSYM_thermal_zone_get_temp 1
 #define __KSYM_thermal_zone_get_zone_by_name 1
 #define __KSYM_thermal_zone_unbind_cooling_device 1
-#define __KSYM_this_cpu_has_cap 1
 #define __KSYM_thread_group_cputime_adjusted 1
 #define __KSYM_tick_nohz_get_idle_calls_cpu 1
 #define __KSYM_tick_nohz_get_sleep_length 1
@@ -7533,7 +7474,6 @@
 #define __KSYM_typec_partner_set_pd_revision 1
 #define __KSYM_typec_partner_set_svdm_version 1
 #define __KSYM_typec_port_register_altmode 1
-#define __KSYM_typec_port_register_altmodes 1
 #define __KSYM_typec_register_partner 1
 #define __KSYM_typec_register_port 1
 #define __KSYM_typec_set_data_role 1
@@ -7724,7 +7664,6 @@
 #define __KSYM_usb_bus_idr_lock 1
 #define __KSYM_usb_calc_bus_time 1
 #define __KSYM_usb_check_bulk_endpoints 1
-#define __KSYM_usb_check_int_endpoints 1
 #define __KSYM_usb_choose_configuration 1
 #define __KSYM_usb_clear_halt 1
 #define __KSYM_usb_composite_probe 1
@@ -8220,7 +8159,6 @@
 #define __KSYM_virtqueue_get_buf_ctx 1
 #define __KSYM_virtqueue_get_desc_addr 1
 #define __KSYM_virtqueue_get_used_addr 1
-#define __KSYM_virtqueue_get_vring 1
 #define __KSYM_virtqueue_get_vring_size 1
 #define __KSYM_virtqueue_is_broken 1
 #define __KSYM_virtqueue_kick 1
@@ -8349,7 +8287,6 @@
 #define __KSYM_xa_set_mark 1
 #define __KSYM_xa_store 1
 #define __KSYM_xas_find 1
-#define __KSYM_xas_load 1
 #define __KSYM_xas_pause 1
 #define __KSYM_xdp_convert_zc_to_xdp_frame 1
 #define __KSYM_xdp_do_flush 1
@@ -8421,13 +8358,11 @@
 #define __KSYM_xt_data_to_user 1
 #define __KSYM_xt_find_match 1
 #define __KSYM_xt_register_match 1
-#define __KSYM_xt_register_matches 1
 #define __KSYM_xt_register_target 1
 #define __KSYM_xt_register_targets 1
 #define __KSYM_xt_request_find_match 1
 #define __KSYM_xt_request_find_target 1
 #define __KSYM_xt_unregister_match 1
-#define __KSYM_xt_unregister_matches 1
 #define __KSYM_xt_unregister_target 1
 #define __KSYM_xt_unregister_targets 1
 #define __KSYM_yield 1
