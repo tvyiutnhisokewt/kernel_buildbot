@@ -30,12 +30,12 @@ jobs:
                 mkdir kernel
                 cp buildscript kernel
                 cd kernel
-                repo init -u https://android.googlesource.com/kernel/manifest.git -b android-gs-bluejay-6.1-android16	 --depth 1
+                repo init -u https://android.googlesource.com/kernel/manifest.git -b android-gs-bluejay-6.1-android16 --depth 1
             
             - name: hax because google gay
               run: |
                 cd ~/kernel
-                sed -i 's/android-gs-bluejay-6.1-android16/android-16.0.0_r0.0/g' .repo/manifests/default.xml
+                sed -i 's,android-gs-bluejay-6.1-android16,refs/tags/android-16.0.0_r0.10,g' .repo/manifests/default.xml
                 repo sync -c -j$(nproc --all) --no-tags --no-clone-bundle --force-sync
             
             - name: checkout android14-6.1-lts
@@ -80,7 +80,7 @@ jobs:
             - name: init credentials
               run: |   
                 cd ~      
-                git config --global user.name "[kernel buildbot] nhi"
+                git config --global user.name "Kernel Buildbot"
                 git config --global user.email "gh@buildbot.tvyiutnhisokewt"
             
             - name: checkout aosp kernel build system
@@ -95,7 +95,7 @@ jobs:
             - name: hax because google gay
               run: |
                 cd ~/kernel
-                sed -i 's/android-gs-pantah-6.1-android16/android-16.0.0_r0.0/g' .repo/manifests/default.xml
+                sed -i 's,android-gs-pantah-6.1-android16,refs/tags/android-16.0.0_r0.10,g' .repo/manifests/default.xml
                 repo sync -c -j$(nproc --all) --no-tags --no-clone-bundle --force-sync
 
             - name: checkout android14-6.1-lts
@@ -122,5 +122,5 @@ jobs:
                 rm -rf *
                 cp -rf ~/kernel/out/pantah/dist/* .
                 git add -A
-                git commit -m 'Upload prebuilt to branch' --signoff
+                git commit -m '[kernel buildbot] tnhi: upload prebuilt to branch' --signoff
                 git push -u origin prebuilt_pantah_gki
