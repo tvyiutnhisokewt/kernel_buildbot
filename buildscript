@@ -1,8 +1,5 @@
 #!/bin/bash
 
-KERNEL_VERSION="6.1"
-QPR_REL="25Q1-12919773"
-
 if { [[ $1 == "" ]] || [[ $1 != "cheetah" && $1 != "panther" && $1 != "pantah" && $1 != "bluejay" ]]; }; then
 	echo "Fuck!"
 	exit 2
@@ -18,7 +15,7 @@ fi
 
 # build kernel
 cd kernel
-BUILD_KERNEL=1 ./build_$tg.sh --kernel_package=@//aosp --lto=thin "${@:2}"
+BUILD_AOSP_KERNEL=1 ./build_$tg.sh --kernel_package=@//aosp --lto=thin "${@:2}"
 cd .. # god damn it gh
 
 dst=~/kernel/out/${tg}/dist
@@ -27,8 +24,7 @@ chmod -x $dst/*
 # deflate kernel headers
 tar zxvf $dst/kernel-headers.tar.gz -C $dst
 # , and copy original kernel headers
-LINK="https://android.googlesource.com/device/google/${tg}-kernels/${KERNEL_VERSION}/+archive/refs/heads/main/${QPR_REL}/original-kernel-headers.tar.gz"
-wget ${LINK} -O /tmp/original-kernel-headers.tar.gz
+wget "https://android.googlesource.com/device/google/${tg}-kernels/6.1/+archive/refs/heads/main/25Q1-12919773/original-kernel-headers.tar.gz" -O /tmp/original-kernel-headers.tar.gz
 tar zxvf /tmp/original-kernel-headers.tar.gz -C $dst/kernel-headers
 
 # cleanup
